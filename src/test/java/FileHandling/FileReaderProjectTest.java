@@ -20,7 +20,7 @@ public class FileReaderProjectTest {
         FileReaderProject.readFromFile("dummy.txt");
 
         // Expected content of dummy.txt
-        String expectedContent = "Hello My name is Himanshu Dangw";
+        String expectedContent = "Hello My name is Himanshu Dangwal";
 
         // Assert that the printed output matches the expected content
         Assert.assertEquals(expectedContent, outContent.toString().trim());
